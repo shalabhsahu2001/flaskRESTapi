@@ -8,3 +8,5 @@ def welcome():
 @app.route("/home")
 def home():
     return "This is home page"
+
+import user_controller
