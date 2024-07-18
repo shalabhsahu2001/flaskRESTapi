@@ -9,4 +9,4 @@ def welcome():
 def home():
     return "This is home page"
 
-import user_controller
+import controller.user_controller as user_controller
